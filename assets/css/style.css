@@ -1,0 +1,26 @@
+
+body {
+    background-image: url("../images/crystal-cave.jpg");
+
+}
+
+* {
+
+    font-family: Arial;
+    color: white;
+
+}
+
+.jumbotron {
+
+    color: white;
+    background-image: url("../images/crystal-cave.jpg");
+
+}
+
+.icons {
+
+    background-color: black;
+    border: black;
+
+}

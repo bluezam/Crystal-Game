@@ -33,7 +33,7 @@ $(document).ready(function(){
 
     /// display winning
     function winner(){
-    alert("Chicken Dinner");
+    alert("Winner Winner Chicken Dinner");
     wins++; 
     $('#wins').text(wins);
     reset();
