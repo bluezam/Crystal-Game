@@ -9,12 +9,12 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Crystal Game</title>
+    <title>Crystal Gems Game</title>
 </head>
 <body>
     
   <div class="jumbotron text-center">
-    <h1>Crystal Collector</h1></div>
+    <h1>Crystal Gems Collector</h1></div>
 
 
       <div class="container-fluid">
@@ -30,24 +30,26 @@
 
 
 
-		<div class="row" id="gameSection">
-                <div class="col-md-3" id="numberSection">
-                    <h3 class="text-center" id="random">Match Number:</h3>
-                    <h1 class="text-center" id="randomNumber">420</h1>
+		<div class="row">
+                <div class="col-md-3">
+                    <h3 class="text-center">Match This: 
+                    <span id="scoretoMatch"></span>
+                    </h3>
                 </div>
     
 
                 <div class="col-md-6 text-center" id="buttonSection">
-                    <button id="button-1" value="0"><img src="assets/images/" class="icons" id="icon1"></button>
-                    <button id="button-2" value="0"><img src="assets/images/" class="icons" id="icon2"></button>
-                    <button id="button-3" value="0"><img src="assets/images/" class="icons" id="icon3"></button>
-                    <button id="button-4" value="0"><img src="assets/images/" class="icons" id="icon4"></button>
+                    <button id="button-1" value="0"><img src="assets/images/amethyst.jpg" class="icons gems1" id="gems1"></button>
+                    <button id="button-2" value="0"><img src="assets/images/emerald.jpg" class="icons gems2" id="gems2"></button>
+                    <button id="button-3" value="0"><img src="assets/images/sapphire.jpg" class="icons gems3" id="gems3"></button>
+                    <button id="button-4" value="0"><img src="assets/images/topaz.jpg" class="icons gems4" id="gems4"></button>
                 </div>
 
 
                 <div class="col-md-3" id="totalPoints">
-                    <h3 class="text-center" id="score">Your Total Score:</h3>
-                    <h1 class="text-center" id="totalNumber">0</h1>
+                    <h3 class="text-center" id="score">Your Total Score: 
+                        <span id="totalScore"></span> 
+                    </h3>
                 </div>
     
         </div>
@@ -58,16 +60,19 @@
 			<div class="col-md-4">
             </div>
 
-
 			<div class="col-md-2" id="winSection">
-				<h3 class="text-center" id="wins">Wins:	0</h3>
+				<h3 class="text-center">Wins: 
+                    <span id="wins">
+                    </span>
+                </h3>
             </div>
             
-
 			<div class="col-md-2" id="lossSection">
-				<h3 class="text-center" id="losses">Losses: 0</h3>
+				<h3 class="text-center">Losses: 
+                    <span id="losses">
+                    </span>
+                </h3>
             </div>
-            
 
 			<div class="col-md-4">
             </div>
